@@ -39,3 +39,15 @@ pip install fastapi uvicorn sqlalchemy pillow python-multipart
 
 # Start development server
 uvicorn app.main:app --reload
+
+# Open a new terminal and navigate to frontend directory
+cd cms-ui
+
+# Install dependencies
+npm install
+
+# Start Vite dev server
+npm run dev
+
+
+
